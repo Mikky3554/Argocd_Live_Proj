@@ -14,7 +14,7 @@ spec:
         app: python-ui
     spec:
       containers:
-      - image: 499199586988.dkr.ecr.ap-southeast-1.amazonaws.com/testpro:dca1e59
+      - image: 499199586988.dkr.ecr.ap-southeast-1.amazonaws.com/testpro
         name: python-ui
         ports:
         - containerPort: 80
