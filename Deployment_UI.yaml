@@ -11,7 +11,7 @@ spec:
   template:
     metadata:
       labels:
-        app: pythin-ui
+        app: python-ui
     spec:
       containers:
       - image: gcr.io/heptio-images/ks-guestbook-demo:0.1
