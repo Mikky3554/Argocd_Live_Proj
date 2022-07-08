@@ -5,6 +5,7 @@ metadata:
   name: python-ui	
 spec:	
   ports:	
+  - name: python-ports
   - port: 80	
     targetPort: 80
   selector:	
