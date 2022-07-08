@@ -18,8 +18,11 @@ spec:
       - image: gcr.io/heptio-images/ks-guestbook-demo:0.1
         name: python-ui
         resources:
+          requests:
+            cpu: 500m
+            memory: 2Gi
           limits:
-            memory: "128Mi"
-            cpu: "500m"
+            cpu: 1
+            memory: 4Gi"
         ports:
         - containerPort: 80
